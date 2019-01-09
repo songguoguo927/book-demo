@@ -46,7 +46,10 @@ app.get('/', function(req, res) {
 app.get('/about', function(req, res){
     // var randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
     //res.render('about', { fortune: randomFortune });
-    res.render('about', { fortune: fortune.getFortune() });
+    res.render('about', {
+        fortune: fortune.getFortune(),
+        pageTestScript:'/qa/tests-about.js'
+    });
 });
 // 404 catch-all 处理器（中间件）
 app.use(function(req, res, next){
