@@ -36,8 +36,10 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
     res.render('home');
 });
-app.get('/about', function(req, res) {
-    res.render('about');
+app.get('/about', function(req, res){
+    var randomFortune =
+        fortunes[Math.floor(Math.random() * fortunes.length)];
+    res.render('about', { fortune: randomFortune });
 });
 // 404 catch-all 处理器（中间件）
 app.use(function(req, res, next){
