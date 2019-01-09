@@ -6,7 +6,7 @@ app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
 app.set('port', process.env.PORT || 3000);
-
+app.use(express.static(__dirname + '/public'));
 //旧路由
 //给首页和关于页面加上路由。
 // app.get('/', function(req, res){
@@ -31,6 +31,7 @@ app.set('port', process.env.PORT || 3000);
 //     res.status(500);
 //     res.send('500 - Server Error');
 // });
+
 //新路由
 app.get('/', function(req, res) {
     res.render('home');

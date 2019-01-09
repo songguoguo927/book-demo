@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="678bb6fd-84f2-43bd-9ac2-c5b5f6567fa1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/meadowlark.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,8 +18,10 @@
     <session id="2088598991">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,23 +40,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="126" />
+          <entry key="js" value="172" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="126" />
+          <entry key="JavaScript" value="172" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/meadowlark.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -86,59 +89,11 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/site/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/array-flatten/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/site/node_modules/vary/package.json" />
       <path value="$PROJECT_DIR$/site/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="667" />
+    <option name="x" value="965" />
     <option name="width" value="1295" />
     <option name="height" value="1088" />
   </component>
@@ -202,24 +157,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546955783321</updated>
-      <workItem from="1546955784684" duration="1884000" />
+      <workItem from="1546955784684" duration="2013000" />
+      <workItem from="1546994269318" duration="536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1884000" />
+    <option name="totallyTimeSpent" value="2549000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="534" y="0" width="1036" height="870" extended-state="0" />
+    <frame x="772" y="0" width="1036" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.18533887" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -227,6 +179,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18533887" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -279,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/meadowlark.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        <state relative-caret-position="240">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
