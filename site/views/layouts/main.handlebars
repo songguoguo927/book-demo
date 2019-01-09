@@ -2,12 +2,13 @@
 <html>
 <head>
     <title>Meadowlark Travel</title>
+        {{{_sections.head}}}
     {{#if showTests}}
         <link rel="stylesheet" href="/vendor/mocha.css">
     {{/if}}
     <link rel="stylesheet" href="/css/main.css">
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-    <script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -16,6 +17,8 @@
         <img src="/img/logo.jpg" alt=""Meadowlark Travel Logo">
     </header>
     {{{body}}}
+
+    {{{_sections.jquery}}}
     <footer>&copy; {{copyrightYear}} Meadowlark Travel</footer>
 </div>
 
