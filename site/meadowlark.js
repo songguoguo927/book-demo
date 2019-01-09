@@ -3,6 +3,7 @@ var app = express();
 var fortune = require('./lib/fortune.js');
 //设置 handlebars 视图引擎
 var handlebars = require('express3-handlebars').create({defaultLayout:'main'});
+// ,extname:'.hbs'
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
@@ -14,6 +15,13 @@ app.use(function(req, res, next){
     next();
 });
 app.use(express.static(__dirname + '/public'));
+
+app.use(require('body-parser')());
+
+app.get('/newsletter', function(req, res){
+// 我们会在后面学到 CSRF……目前，只提供一个虚拟值
+    res.render('newsletter', { csrf: 'CSRF token goes here' });
+});
 //旧路由
 //给首页和关于页面加上路由。
 // app.get('/', function(req, res){
@@ -38,20 +46,22 @@ app.use(express.static(__dirname + '/public'));
 //     res.status(500);
 //     res.send('500 - Server Error');
 // });
-
+// app.get('/headers', function(req,res){
+//     res.set('Content-Type','text/plain');
+//     var s = '';
+//     for(var name in req.headers) s += name + ': ' + req.headers[name] + '\n';
+//     res.send(s);
+// });
+//禁用 Express 的 X-Powered-By 头信息
+//app.disable('x-powered-by');
 //新路由
 app.get('/', function(req, res) {
     res.render('home');
 });
 //想查看浏览器发送的信息
-app.get('/headers', function(req,res){
-    res.set('Content-Type','text/plain');
-    var s = '';
-    for(var name in req.headers) s += name + ': ' + req.headers[name] + '\n';
-    res.send(s);
+app.get('/login',function (req,res) {
+    res.render('login');
 });
-//禁用 Express 的 X-Powered-By 头信息
-app.disable('x-powered-by');
 
 app.get('/foo',function (req,res) {
    res.render('foo',{layout: null});//不使用布局，也可以使用别的模板

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="678bb6fd-84f2-43bd-9ac2-c5b5f6567fa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/site/public/qa/tests-unit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/views/foo.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/views/partials/weather.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/views/login.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/views/newsletter.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/meadowlark.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/public/vendor/mocha.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/public/vendor/mocha.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/views/about.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/site/views/about.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/views/home.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/site/views/home.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/site/views/layouts/main.handlebars" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,30 +31,30 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="handdlebars" value="1" />
-          <entry key="handlebars" value="15" />
+          <entry key="handlebars" value="18" />
           <entry key="js" value="11" />
-          <entry key="json" value="2" />
+          <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="Handlebars/Mustache" value="15" />
-          <entry key="JSON" value="2" />
+          <entry key="Handlebars/Mustache" value="18" />
+          <entry key="JSON" value="3" />
           <entry key="JavaScript" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="handlebars" value="466" />
-          <entry key="js" value="487" />
+          <entry key="handlebars" value="467" />
+          <entry key="js" value="588" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Handlebars/Mustache" value="466" />
-          <entry key="JavaScript" value="487" />
+          <entry key="Handlebars/Mustache" value="467" />
+          <entry key="JavaScript" value="588" />
         </counts>
       </usages-collector>
     </session>
@@ -69,17 +64,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/meadowlark.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+            <state relative-caret-position="330">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/views/partials/weather.handlebars">
+        <entry file="file://$PROJECT_DIR$/site/views/newsletter.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -88,7 +83,16 @@
         <entry file="file://$PROJECT_DIR$/site/views/home.handlebars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/views/layouts/main.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -122,13 +126,15 @@
         <option value="$PROJECT_DIR$/site/views/tours/request-group-rate.handlebars" />
         <option value="$PROJECT_DIR$/site/public/qa/tests-unit.js" />
         <option value="$PROJECT_DIR$/site/views/about.handlebars" />
-        <option value="$PROJECT_DIR$/site/views/layouts/main.handlebars" />
         <option value="$PROJECT_DIR$/site/views/foo.handlebars.js" />
         <option value="$PROJECT_DIR$/site/views/foo.handlebars" />
         <option value="$PROJECT_DIR$/site/public/meadowlark.js" />
         <option value="$PROJECT_DIR$/site/views/partial/weather.handlebars" />
         <option value="$PROJECT_DIR$/site/views/home.handlebars" />
         <option value="$PROJECT_DIR$/site/views/partials/weather.handlebars" />
+        <option value="$PROJECT_DIR$/site/views/login.handlebars" />
+        <option value="$PROJECT_DIR$/site/views/newsletter.handlebars" />
+        <option value="$PROJECT_DIR$/site/views/layouts/main.handlebars" />
         <option value="$PROJECT_DIR$/site/meadowlark.js" />
       </list>
     </option>
@@ -148,10 +154,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="212" />
-    <option name="y" value="37" />
+    <option name="x" value="665" />
+    <option name="y" value="145" />
     <option name="width" value="1563" />
-    <option name="height" value="987" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -189,13 +195,6 @@
               <item name="site" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meadowlark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meadowlark" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,18 +250,18 @@
       <option name="presentableId" value="Default" />
       <updated>1546955783321</updated>
       <workItem from="1546955784684" duration="2013000" />
-      <workItem from="1546994269318" duration="17575000" />
+      <workItem from="1546994269318" duration="19729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19588000" />
+    <option name="totallyTimeSpent" value="21742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="30" width="1250" height="789" extended-state="0" />
+    <frame x="532" y="116" width="1250" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16474465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23228996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -274,7 +273,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40809968" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24256651" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -373,23 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/layouts/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#387#393#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/foo.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -404,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/views/home.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/views/partials/weather.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
@@ -418,10 +393,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/login.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/home.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/newsletter.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/meadowlark.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+        <state relative-caret-position="330">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
