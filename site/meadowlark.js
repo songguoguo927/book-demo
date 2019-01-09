@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var fortune = require('./lib/fortune.js');
 //设置 handlebars 视图引擎
 var handlebars = require('express3-handlebars').create({defaultLayout:'main'});
 app.engine('handlebars', handlebars.engine);
@@ -37,9 +38,8 @@ app.get('/', function(req, res) {
     res.render('home');
 });
 app.get('/about', function(req, res){
-    var randomFortune =
-        fortunes[Math.floor(Math.random() * fortunes.length)];
-    res.render('about', { fortune: randomFortune });
+    // var randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+    res.render('about', { fortune: fortune.getFortune() });
 });
 // 404 catch-all 处理器（中间件）
 app.use(function(req, res, next){
