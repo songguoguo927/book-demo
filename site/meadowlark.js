@@ -43,24 +43,79 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
     res.render('home');
 });
+//想查看浏览器发送的信息
+app.get('/headers', function(req,res){
+    res.set('Content-Type','text/plain');
+    var s = '';
+    for(var name in req.headers) s += name + ': ' + req.headers[name] + '\n';
+    res.send(s);
+});
+//禁用 Express 的 X-Powered-By 头信息
+app.disable('x-powered-by');
+
+app.get('/foo',function (req,res) {
+   res.render('foo',{layout: null});//不使用布局，也可以使用别的模板
+});
 app.get('/about', function(req, res){
     // var randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
     //res.render('about', { fortune: randomFortune });
     res.render('about', {
         fortune: fortune.getFortune(),
+        name:'<b>Buttercup</b>',
         pageTestScript:'/qa/tests-about.js'
     });
 });
+app.get('/tours/hood-river', function(req, res){
+    res.render('tours/hood-river');
+});
+app.get('/tours/request-group-rate', function(req, res){
+    res.render('tours/request-group-rate');
+});
+function getWeatherData(){
+    return {
+        locations: [
+            {
+                name: 'Portland',
+                forecastUrl: 'http://www.wunderground.com/US/OR/Portland.html',
+                iconUrl: 'http://icons-ak.wxug.com/i/c/k/cloudy.gif',
+                weather: 'Overcast',
+                temp: '54.1 F (12.3 C)',
+            },
+            {
+                name: 'Bend',
+                forecastUrl: 'http://www.wunderground.com/US/OR/Bend.html',
+                iconUrl: 'http://icons-ak.wxug.com/i/c/k/partlycloudy.gif',
+                weather: 'Partly Cloudy',
+                temp: '55.0 F (12.8 C)',
+            },
+            {
+                name: 'Manzanita',
+                forecastUrl: 'http://www.wunderground.com/US/OR/Manzanita.html',
+                iconUrl: 'http://icons-ak.wxug.com/i/c/k/rain.gif',
+                weather: 'Light Rain',
+                temp: '55.0 F (12.8 C)',
+            },
+        ],
+    };
+}
+
+app.use(function(req, res, next){
+    if(!res.locals.partials) res.locals.partials = {};
+    res.locals.partials.weather = getWeatherData();
+    next();
+});
 // 404 catch-all 处理器（中间件）
 app.use(function(req, res, next){
-    res.status(404);
-    res.render('404');
+    // res.status(404);
+    // res.render('404');
+    res.status(404).render('not-found');
 });
 // 500 错误处理器（中间件）
 app.use(function(err, req, res, next){
     console.error(err.stack);
-    res.status(500);
-    res.render('500');
+    // res.status(500);
+    // res.render('500');
+    res.status(500).render('error');
 });
 app.listen(app.get('port'), function(){
     console.log( 'Express started on http://localhost:' +
